@@ -1,0 +1,16 @@
+@media(max-width:620px) {
+    body{
+        border-style: solid;
+        border-top-color:black;
+    }
+
+    .nomes{
+
+    }
+    
+    .nomes .informacao img{
+        
+        border-style: solid;
+        border-width: 1px;
+    }
+} 

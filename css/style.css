@@ -1,0 +1,73 @@
+body{
+    background-color: var(--background-color);
+    height: 100vh;
+    font-size: 18px;
+    font-family:'Kumbh Sans', sans-serif ;
+}
+hr{
+    width: 100%;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    
+}
+  .cidade {
+    padding: 20px;
+    
+
+
+  }
+
+.nomes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 20px;
+    width: 330px;
+    height: 350px;
+}
+
+.nomes .informacao{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+
+ 
+}
+
+.nomes .informacao img{
+    border-radius: 50%;
+    margin-top: 20px;
+    
+}
+
+.nomes .numeros{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-bottom: 30px;
+    text-align: center;
+
+
+}
+
+.numeros .informacao .cantora ,
+ .nomes .informacao p{
+    font-weight: 700;
+
+}
+
+.nomes .informacao .cantora,
+.nomes .informacao .cidade,
+.numeros .informacao .tipo-contador{
+   color: var( --text-color);
+}
