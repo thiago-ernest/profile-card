@@ -7,7 +7,7 @@ um projeto de teste com um arquivo de Readme 🚀
 ## como ultilizar 
 clone o projeto
 ```
-git clone <<a href="http://127.0.0.1:5501/css/index.html"></a>>
+git clone <http://127.0.0.1:5501/css/index.html>
 ```
 acessar a pasta do projeto
 ```
